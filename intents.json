@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later",
+         "Goodbye"
+        ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "what is your name ?",
+         "what can i call you?"
+        ],
+      "responses": [
+        "you can call me ChatPot",
+        "my name is Chatpot"
+      ]
+    },
+    {
+      "tag": "info2",
+      "patterns": [
+        "tell me about yourself"
+      ],
+      "responses": [
+        "I'm an AI agent trained and developed to talk to you and give you some recommendations"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+         "Any time!",
+          "My pleasure"
+        ]
+    },
+    {"tag": "advice",
+    "patterns": [
+      "i'm bored",
+      "what to do fo entertaing?"
+    ],
+    "responses": [
+      "you can go to the gym!"
+    ]
+   },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+         "No problem!"
+        ]
+      },
+    {   "tag": "food",
+        "patterns": [
+          "i want to eat something"
+        ],
+        "responses": [
+          "you can order fast food"
+        ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+         "Will it rain today?",
+          "How hot is it outside?"
+        ],
+      "responses": [
+        "The weather today is mostly sunny with a high of 40 degrees.",
+         "There's a chance of rain later today, with a high of 35 degrees."
+        ]
+    }
+]
+}
